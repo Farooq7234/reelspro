@@ -30,6 +30,7 @@ export async function POST(req: NextRequest) {
       { status: 201 }
     );
   } catch (error) {
+    console.log(error);
     return NextResponse.json({ error: "Failed to Register!" }, { status: 500 });
   }
 }
