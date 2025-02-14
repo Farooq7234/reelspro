@@ -15,6 +15,7 @@ export interface IVideo {
   transformation?: {
     height: number;
     width: number;
+    quality?: number;
   };
   createdAt?: Date;
   updatedAt?: Date;
