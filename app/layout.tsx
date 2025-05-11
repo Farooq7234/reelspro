@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Next.js Integration",
+  title: "Short Video Sharing App",
   description: "Demo of ImageKit integration with Next.js",
 };
 
